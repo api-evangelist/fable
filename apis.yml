@@ -1,8 +1,19 @@
 aid: fable
 name: Fable
-description: 'Fable is a company surfaced as a portfolio company of greylock, techstars and added to the
-  API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Fable Security is an AI-powered human risk management (HRM) platform that helps
+  security teams reduce incidents by changing employee behavior. It combines
+  behavioral interventions (targeted nudges and AI-generated content), phishing
+  simulations, short-form video awareness briefings, and human-risk reporting into
+  a single platform positioned as a modern replacement for legacy security-awareness
+  training. Fable's AI Studio, Composer, and Briefing Agent generate custom video
+  and audio content - including deepfake and voice-fake simulations - and produce
+  audience-targeted briefings from emerging threats in minutes. The platform reports
+  on human risk and compliance across the workforce and integrates with an
+  organization's identity framework, workspace, and security tooling. Fable serves
+  healthcare, financial services, and technology customers including Sisense,
+  SanDisk, Red Hat, PennyMac, Genesys, and Dayton Children's Hospital, and is backed
+  by Greylock and Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/fable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +22,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://fablesecurity.com/wp-content/uploads/2026/06/open-graph-JUN26.jpg
 tags:
 - Company
 - Cybersecurity
+- Security Awareness
+- Human Risk Management
+- Phishing Simulation
+- Security Training
+- Compliance
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +53,25 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fable-domain-security.yml
 - type: Website
   url: https://fablesecurity.com/
+- type: Blog
+  url: https://fablesecurity.com/resources/
+- type: ChangeLog
+  url: https://fablesecurity.com/resources/changelog/
+- type: ChangeLog
+  name: Fable Security changelog (harvested)
+  url: changelog/fable-changelog.yml
+- type: Login
+  url: https://app.fablesecurity.com/sign-in/
+- type: TermsOfService
+  url: https://fablesecurity.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://fablesecurity.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

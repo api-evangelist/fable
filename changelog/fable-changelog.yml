@@ -1,0 +1,90 @@
+generated: '2026-07-19'
+method: searched
+source: https://fablesecurity.com/resources/changelog/
+name: Fable Security Changelog
+scheme: dated
+current_version: null
+notes: >-
+  Fable Security publishes a dated, product-release changelog (no semantic
+  version numbers). Entries below capture the recent window only; the live
+  page is the source of truth.
+entries:
+- date: '2026-07-16'
+  title: Briefing Agent
+  breaking: false
+  highlights:
+  - AI tool that generates a fully custom, audience-targeted video briefing from any
+    emerging threat in 10 minutes or less.
+- date: '2026-07-02'
+  title: New Briefings for Trending Threats
+  breaking: false
+  highlights:
+  - Content on NPM supply-chain attacks and e-vite phishing scams.
+  - Expanded compliance materials; 135 new media assets added to the Composer library.
+- date: '2026-06-26'
+  title: AI Governance and Data Classification Training
+  breaking: false
+  highlights:
+  - Role-specific briefings for legal teams on AI tool governance (Gemini, Copilot,
+    ChatGPT, Claude) and data classification.
+- date: '2026-06-16'
+  title: Organization View Enhancement
+  breaking: false
+  highlights:
+  - Drill-down for employee risk assessment - cohort memberships, manager filtering,
+    admin access controls.
+- date: '2026-06-15'
+  title: AI and Data Sensitivity Briefings
+  breaking: false
+  highlights:
+  - Refreshed AI adoption module and new Microsoft 365 sensitivity labeling content.
+- date: '2026-06-05'
+  title: Organization View Full Drill-Down and Emerging Threat Briefings
+  breaking: false
+  highlights:
+  - Employee risk profiles and department-level filtering with real-time metrics.
+  - Content on Coyote Banking Trojan and AI notetaker risks.
+- date: '2026-05-21'
+  title: SOX Compliance Course Rebuild
+  breaking: false
+  highlights:
+  - Version 2 compliance program overhaul - 63 videos across 8 courses.
+- date: '2026-05-13'
+  title: Catalog Templates, Custom Briefing Requests, Cohort Nudges
+  breaking: false
+  highlights:
+  - Six new catalog templates including KnowBe4 migration guides.
+  - Structured custom-briefing intake with Linear integration.
+  - Nudge deployment from manually built cohorts via Command Center.
+- date: '2026-05-05'
+  title: Supply Chain Briefings and Training Reminder Controls
+  breaking: false
+  highlights:
+  - Bitwarden + Checkmarx role-specific emerging-threat content.
+  - Per-campaign delivery customization and org-wide email template defaults.
+- date: '2026-04-02'
+  title: AI Studio
+  breaking: false
+  highlights:
+  - Custom AI-generated video and audio content for deepfake and voice-fake simulations.
+- date: '2026-03-29'
+  title: Composer
+  breaking: false
+  highlights:
+  - Scene-by-scene video customization - script, voice, variables, and pacing.
+- date: '2026-03-19'
+  title: Cohort Builder
+  breaking: false
+  highlights:
+  - Natural-language cohort creation, eliminating manual rule configuration.
+- date: '2026-01-13'
+  title: Organization View
+  breaking: false
+  highlights:
+  - Workforce training posture dashboard with manager-level filtering.
+- date: '2025-11-20'
+  title: Manager Escalation and Dashboard
+  breaking: false
+  highlights:
+  - Automated overdue-training notifications to direct managers.
+  - Single-screen program overview with AI-generated insights.
